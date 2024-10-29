@@ -407,3 +407,61 @@ center {
     margin: 20px 0;
     text-align: center;
 }
+
+
+/* contact */
+
+.contact{
+    font-family: 'Roboto', sans-serif;
+}
+.info-title{
+    color:#ecf0f3;
+    text-align:center;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    padding-bottom:5px ;
+    font-family: 'Roboto', sans-serif;
+}
+.info-sub-title{
+    
+    color:#ecf0f3;
+    text-align:center;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 17px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    padding-bottom:8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-icons {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.social-icons li {
+    display: inline-block;
+}
+.social-icons li i {
+    background: #F44770;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.social-icons li i:hover {
+    background: #fff;
+    color: #000000;
+}
+.pt-3{
+    display: flex;
+}
+.pt-3 .row{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
